@@ -10,9 +10,7 @@ Como estou colocando em prática os conceitos aprendidos com HTML e CSS, decidi 
 
 ### 🖼️ Aparência
 
-<kbd?>
-<img src="./src/design/siteviralata-print-1.png" width="560">
-</kbd><img src="./src/design/siteviralata-print-2.png" width="210">
+<img src="./src/design/siteviralata-print-1.png" width="550"><img src="./src/design/siteviralata-print-2.png" width="208">
 
 ### 🖇️ Links
 
