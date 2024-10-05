@@ -10,8 +10,7 @@ Como estou colocando em prática os conceitos aprendidos com HTML e CSS, decidi 
 
 ### 🖼️ Aparência
 
-<img src="./src/design/siteviralata-print-1.png" width="568">
-<img src="./src/design/siteviralata-print-2.png" width="200">
+<img src="./src/design/siteviralata-print-1.png" width="560"><img src="./src/design/siteviralata-print-2.png" width="200">
 
 ### 🖇️ Links
 
