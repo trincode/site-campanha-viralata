@@ -132,8 +132,12 @@ body {
 .rodape {
     background-color: #1b1b29;
     color: var(--cor-fonte-menu1);
-    height: 9.3vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.rodape .direitos {
+    padding: 2.25rem;
 }
