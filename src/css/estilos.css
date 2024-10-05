@@ -1,0 +1,121 @@
+body {
+    font-size: 62.5%;
+    max-width: var(--largura-max);
+    margin: 0 auto;
+    font-family: 'Roboto Flex', system-ui;
+}
+
+.cabecalho {
+    background-color: #2866AB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.cabecalho .logo {
+    font-size: 2rem;
+    color: var(--cor-fonte-menu1);
+}
+
+.cabecalho .logo:hover {
+    color: var(--cor-fonte-menu1);
+}
+
+.cabecalho .menu {
+    display: flex;
+    font-size: 1rem;
+}
+
+.cabecalho .menu li a {
+    margin: 0 4rem;
+    color: var(--cor-fonte-menu1);
+    font-weight: 500;
+}
+
+.principal {
+    background-color: coral;
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.principal .informacoes .chamada {
+    background-color: yellowgreen;
+    margin: 1rem;
+    padding: 2%;
+    max-width: 450px;
+    margin-bottom: 50px;
+}
+
+.principal .informacoes .partido {
+    background-color: #2866AB;
+    margin: 0 auto;
+    padding: 2%;
+    width: 100px;
+}
+
+.principal .informacoes .titulo, .principal .informacoes .numero {
+    font-size: 4rem;
+    font-family: 'Bowlby One', system-ui;
+    line-height: 3.5rem;
+    background-color: #e7ebf0;
+    color: #2866AB;
+}
+.principal .informacoes .titulo {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.principal .informacoes .numero {
+    color: #303481;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.principal .informacoes .subtitulo {
+    padding: 0 1rem;
+    font-size: 1.4rem;
+    color: #303481;
+}
+
+.frase, .texto {
+    color: var(--cor-fonte-menu1)
+}
+
+.principal .informacoes .numero {
+    font-size: 6.8rem;
+    line-height: 6rem;
+    margin-bottom: 10px;
+}
+
+.principal .informacoes .frase {
+    margin: 15px 0;
+    font-size: 2rem;
+    text-shadow: 2px 2px 0px #000;
+}
+
+.principal .informacoes .texto {
+    margin-bottom: 20px 0;
+    font-size: 1rem;
+    text-shadow: 2px 2px 0px #000;
+}
+
+.principal .informacoes .botao {
+    padding: 0.5rem 1rem;
+    background-color: red;
+    color: #fff;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px #000;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.principal .foto {
+    width: 50%;
+    align-self: flex-end;
+}

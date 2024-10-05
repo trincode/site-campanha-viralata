@@ -12,8 +12,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
         rel="stylesheet">
+    <link rel="shortcut icon" href="./src/imagens/paw-favicon.png" type="image/x-icon">
     
     <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/variaveis.css">
     
 
     <title>Caramelo: Um Vereador Que Late Pelos Seus Direitos!</title>
@@ -21,9 +24,10 @@
 
 <body>
     <header class="cabecalho">
-        <a class="logo">
+        <a class="logo" href="#">
             <i class="fa-solid fa-paw"></i>
         </a>
+
         <nav>
             <ul class="menu">
                 <li><a href="#">Home</a></li>
@@ -34,16 +38,19 @@
 
     <main class="principal">
         <div class="informacoes">
-            <h2>VEREADOR</h2>
-            <h1 class="titulo nome1">VIRA-LATA</h1>
-            <h1 class="titulo nome2">CARAMELO</h1>
-            <h1 class="numero">51718</h1>
-            <h3 class="frase">A voz do povo, o rabo que balança.</h3>
-            <p class="texto">Entrarei na câmara focado em garantir o bem-estar de todos: humanos e peludos. E cumprirei
-                meu objetivo, porque quem entende de ruas e bairros é o vira-lata!</p>
-            <button class="botao">Apoie o Caramelo!</button>
+            <div class="chamada">
+                <h2 class="subtitulo">VEREADOR</h2>
+                <h1 class="titulo">VIRA-LATA<br> CARAMELO</h1>
+                <h2 class="numero">51718</h2>
+                <h3 class="frase">"A voz do povo, o rabo que balança."</h3>
+                <p class="texto">Entrarei na câmara focado em garantir o bem-estar de todos: humanos e peludos. E cumprirei
+                    meu objetivo, porque quem entende de ruas e bairros é o vira-lata!</p>
+                <a href="#">
+                    <button class="botao">Apoie o Caramelo!</button>
+                </a>
+            </div>
         </div>
-        <img src="./src/imagens/viralata-caramelo.png" alt="Foto de Cachorro de terno e gravata">
+        <img class="foto" src="./src/imagens/viralata-caramelo.png" alt="Foto de Cachorro de terno e gravata">
     </main>
 
 </body>
