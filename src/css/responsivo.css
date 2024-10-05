@@ -1,0 +1,75 @@
+@media(max-width: 970px) {
+    .principal {
+        height: auto;
+    }
+
+    .principal .informacoes .chamada {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .frase, .texto {
+        text-align: center;
+    }
+
+    .principal .informacoes a {
+        align-self: center;
+    }
+
+    .rodape {
+        height: auto;
+    }
+
+    .rodape .direitos {
+        padding: 1rem;
+    }
+}
+
+@media(max-width: 500px) {
+    .cabecalho, .cabecalho .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .cabecalho .menu {
+        align-items: center;
+        gap: 10px;
+    }
+
+    .principal .informacoes .chamada {
+        min-width: 350px;
+    }
+
+    .principal .informacoes .titulo, .principal .informacoes .numero {
+        font-size: calc(3rem + 1vw);
+        line-height: 3.5rem;
+        text-align: center;
+    }
+
+    .principal .informacoes .numero {
+        font-size: calc(5rem + 1vw);
+        line-height: 4rem;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 450px) {
+    .principal .informacoes .chamada {
+        min-width: 200px;
+    }
+
+    .principal .informacoes .titulo, .principal .informacoes .numero {
+        font-size: calc(3rem + 1vw);
+        line-height: 3.5rem;
+    }
+
+    .principal .informacoes .numero {
+        font-size: calc(5rem + 1vw);
+        line-height: 4rem;
+    }
+
+    @media(max-width: 405px) {
+        .principal .informacoes .chamada {
+            min-width: 100px;
+        }
+    }
+}
