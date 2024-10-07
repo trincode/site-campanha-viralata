@@ -26,7 +26,7 @@ Como estou colocando em prática os conceitos aprendidos com HTML e CSS, decidi 
 
 ### Desafios e Conceitos aplicados
 
-- Responsive Design
+- Design Responsivo
 - CSS Flexbox
 
 ### O que aprendi
@@ -41,7 +41,6 @@ Ainda pretendo adicionar um fundo com movimentação, e uma sessão de saiba mai
 
 - [Fontawesome - Biblioteca de ícones](https://fontawesome.com/icons) - Usei essa biblioteca para adicionar a patinha como ícone (logo) do site;
 
-
 ## Autor
 
 - LinkedIn - [Clayton Trindade](https://www.linkedin.com/in/clayton-trindade-93b925329/)
@@ -51,4 +50,3 @@ Ainda pretendo adicionar um fundo com movimentação, e uma sessão de saiba mai
 ## Agradecimentos
 
 Meus agradecimentos aos @roberto-hofstetter e @cadudias, criadores do DevQuest, curso no qual aprendi a maioria dos conhecimentos utilizados aqui nesse projeto!
-
