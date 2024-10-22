@@ -40,6 +40,8 @@
     .rodape .direitos {
         padding: 1rem;
         height: 10vh;
+        display: flex;
+        align-items: center;
     }
     
 }

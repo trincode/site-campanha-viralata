@@ -147,13 +147,13 @@ body {
 }
 
 .rodape {
-    background-color: #1b1b29;
+    background-color: #858788;
     color: var(--cor-fonte-menu1);
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 10vh;
+    height: 10vh;
     text-align: center;
 }
 
