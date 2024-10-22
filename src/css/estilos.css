@@ -155,6 +155,7 @@ body {
     justify-content: center;
     align-items: center;
     max-height: 10vh;
+    text-align: center;
 }
 
 .rodape .direitos {
