@@ -3,6 +3,8 @@ body {
     max-width: var(--largura-max);
     margin: 0 auto;
     font-family: 'Roboto Flex', system-ui;
+    max-height: 100vh;
+    overflow: hidden;
 }
 
 .cabecalho {
@@ -11,6 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem;
+    max-height: 10vh;
 }
 
 .cabecalho .logo {
@@ -42,13 +45,13 @@ body {
     position: absolute;
     z-index: -1;
     width: 100vw;
-    max-width: 1280px;
-    height: 100vh;
-    overflow: hidden;
+    height: 80vh;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .fundo-video .video {
-    height: 100%;
+    height: 100.6%;
 }
 
 .principal {
@@ -151,6 +154,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-height: 10vh;
 }
 
 .rodape .direitos {
